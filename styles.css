@@ -157,6 +157,45 @@ p {
     border-radius: 4px;
 }
 
+/* Projects Section */
+.projects .card {
+  border: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.projects .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.projects .card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 200px;
+  object-fit: cover;
+}
+.projects .card-text {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #666;
+}
+#experience h2 {
+  text-align: center;
+}
+#exp_text {
+  /* display: block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; */
+  color: #666;
+}
+
+
 /* Certificates Section */
 .certificate-box {
     display: flex;
